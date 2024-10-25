@@ -1,0 +1,51 @@
+/* nav related css */
+body{
+    
+    
+            font-family: "Rowdies", sans-serif;
+            font-weight: 700;
+            
+        
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mery{
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.primary{
+    color: rgb(228, 125, 51);
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav > ul > li{
+    list-style: none;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color:black ;
+
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0px;
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-style: normal;
+    padding: 5px;
+}
+
